@@ -1,0 +1,16 @@
+StartLoad()
+loadFile = ('Save.sav')
+
+'Save.sav':--
+
+Type:('exe')
+
+App:('PeojectClick')
+
+dataSource:'folder'/'Eng.RE'/'1'
+
+Create.New?<'Data'>
+<Data>=("Stuff")
+
+Stuff = Clicks + Leaderboard + Upgrades:(Upgrades/[if "fileType" = '.feT' do ?allFile:(!allfile+fileType!)] + Currency:(Currency/File1.Co, File2.Co, File3.Co)--
+
